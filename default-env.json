@@ -1,5 +1,27 @@
 {
 	"VCAP_SERVICES": {
+        "xsuaa": [{
+            "name": "MyHANAApp-xsuaa-service",
+            "label": "xsuaa",
+            "tags": ["xsuaa"],
+            "credentials": {
+                "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+                "clientid": "sb-myhanaapp!t89516",
+                "clientsecret": "FoCilzikgLR6DnPYOmyO7D2/N7A=",
+                "credential-type": "instance-secret",
+                "identityzone": "5b24ae6btrial",
+                "identityzoneid": "2fe43158-5667-451d-944d-e7ac4a2c85de",
+                "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+                "subaccountid": "2fe43158-5667-451d-944d-e7ac4a2c85de",
+                "tenantid": "2fe43158-5667-451d-944d-e7ac4a2c85de",
+                "tenantmode": "dedicated",
+                "uaadomain": "authentication.us10.hana.ondemand.com",
+                "url": "https://5b24ae6btrial.authentication.us10.hana.ondemand.com",
+                "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuB0JESzNN0lOHjj7dsl+\n1kVjh7DTwuj7Is6six8mNRIFiLKRLBrZM4UpbF3+mrRwV3QnyNUswOkERPpTcU2L\nBoVArwKFot+IFXexmVxqFnWtS719rjDJyDxHO4zojJgfaHv3CisT3CcqmMgMu1xN\nQByeqTJC5y9VcJ4TfB8figWUOcYyp/kpLQ4Oh2pHttZWt/eRUCBlxSS3BKvuxsVy\nVxhAcisb2UghWfhxHyiMVF6U9ZvqA0Y1tuCj2IZxKwYYFLA+C9I9JrwReRAR7jCn\n1WBb54uaeQNGiNcfnGhVq6pNhQlk4NFv5Tahqp4vjp7kpAvXHdChkmFQlXt2GwNe\nywIDAQAB\n-----END PUBLIC KEY-----",
+                "xsappname": "myhanaapp!t89516",
+                "zoneid": "2fe43158-5667-451d-944d-e7ac4a2c85de"
+            }
+        }],    
 		"hana": [
 			{
 				"name": "MyHANAApp-hdiMyHANAApp-db-deployer-ws-xjhs6",
